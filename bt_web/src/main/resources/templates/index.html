@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <form action="/queryContact" method="post">
+                    <fieldset>
+                        <legend>查询联系人</legend> <label>联系人id</label><input type="text" name="id" />
+                        <button type="submit" class="btn">查询</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <form action="/queryContactList" method="post">
+                    <fieldset>
+                        <legend>查询所有联系人</legend>
+                        <button type="submit" class="btn">查询</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <form action="/queryCallLogList" method="post">
+                    <fieldset>
+                        <legend>查询通话记录</legend>
+                        <label>电话号码</label>
+                        <input type="text" name="telephone"/>
+                        <label>年</label>
+                        <input type="date" name="date"/>
+                        <button type="submit" class="btn">提交</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <form action="/queryCallLogList2" method="post">
+                    <fieldset>
+                        <legend>查询通话记录-echars</legend>
+                        <label>电话号码</label>
+                        <input type="text" name="telephone"/>
+                        <label>年</label>
+                        <input type="date" name="date"/>
+                        <button type="submit" class="btn">提交</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

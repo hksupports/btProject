@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/btProject.iml" filepath="$PROJECT_DIR$/btProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bt_analysis/bt_analysis.iml" filepath="$PROJECT_DIR$/bt_analysis/bt_analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bt_consumer/bt_consumer.iml" filepath="$PROJECT_DIR$/bt_consumer/bt_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bt_producer/bt_producer.iml" filepath="$PROJECT_DIR$/bt_producer/bt_producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bt_web/bt_web.iml" filepath="$PROJECT_DIR$/bt_web/bt_web.iml" />
+    </modules>
+  </component>
+</project>
